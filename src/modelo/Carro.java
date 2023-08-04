@@ -1,15 +1,18 @@
 package modelo;
 
 public class Carro {
+    private String marca;
 
-    public String marca;
+    public Carro() {
+
+    }
 
     public Carro(String marca) {
         this.marca = marca;
     }
 
-    String getMarcaCoche() {
-        return marca;
+    public int precioMedio() {
+        return 0;
     }
 
     void guardarCocheDB(Carro carro) {
